@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+int main()
+{
+ int a,b,c,d,e,t;
+ scanf("%d",&a);
+
+ b=a%10;
+ a=a/10;
+
+ c=a%10;
+ a=a/10;
+
+ d=a%10;
+ a=a/10;
+
+ e=a%10;
+ a=a/10;
+
+
+
+t=c+d;
+
+ printf("summation is = %d", t);
+ return 0;
+}
