@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main()
+{
+    double km,m,cm,feet,inch;
+
+    printf("Enter distance in km: ");
+    scanf("%lf",&km);
+    m=km*1000;
+    printf("Distance in m: %lf\n",  m);
+
+    cm=km*100000;
+    printf("Distance in cm: %lf\n", cm);
+
+    feet=km*3280.84;
+    printf("Distance in feet: %0.2lf\n", feet);
+
+    inch=km*39370.1;
+    printf("Distance in inch: %.1lf\n", inch);
+    return 0;
+}

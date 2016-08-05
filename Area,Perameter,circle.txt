@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+    float h, l ,r, a, b, c, d;
+    scanf("%f%f%f", &h,&l,&r);
+
+    a=h*l;
+    printf("Area of rectangle: %f\n", a);
+    b = 2*(l+h);
+    printf("perimeter of rectangular: %f\n", b);
+
+    c = 3.1416*r*r;
+    printf("Area of circle: %f\n", c);
+
+    d = 2*3.1416*r;
+    printf("circumference of circle: %f\n", d);
+
+    return 0;
+
+}

@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+   int i,n,res=0,s=0;
+   scanf("%d", &n);
+
+   for( i=1;i<=n; i++){
+     s=s+i;
+     res=res+s;
+     printf("i=%d; s=%d;res=%d\n", i,s,res);
+   }
+   printf("%d\n", res);
+}

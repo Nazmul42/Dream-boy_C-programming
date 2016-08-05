@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    double a, z, x, y, g;
+    printf("Rahim basic salary: ");
+    scanf("%lf", &a);
+    z = a*30/100;
+    printf("His house rent allowance of basic salary: %lf\n", z);
+    x = a*5/100;
+    printf("His medical allowance of basic salary: %lf\n", x);
+    y = 1000;
+    printf("He gets extra  technical allowance: %lf\n", y);
+    g = a+z+x+y;
+    printf("His gross salary: %lf\n", g);
+    return 0;
+
+
+}

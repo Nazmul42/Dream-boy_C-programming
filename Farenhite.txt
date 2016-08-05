@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+int main()
+{
+     double fh,cl;
+     printf("Fh: ");
+     scanf("%lf", &fh);
+     cl = (fh - 32) / 1.8;
+     printf("Cl: %lf",cl);
+     return 0;
+}

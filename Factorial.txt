@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+
+int main()
+{
+     double x,n,i,C,P,resX=1,resN=1,resC=1,resD,resP=1,resM;
+
+
+     scanf("%lf%lf", &x, &n);
+     for(i=1; i<=x; i++){
+        resX=resX*i;
+        printf("%.1lf\n", resX);
+
+     }
+
+
+
+     for(i=1; i<=n; i++){
+        resN=resN*i;
+        printf("%.1lf\n", resN);
+
+     }
+
+
+     C=x-n;
+     for(i=1; i<=C; i++){
+        resC=resC*i;
+
+     resD=resX/(resC*resN);
+     printf("%.1lf\n", resD);
+
+     }
+      P=x-n;
+     for(i=1; i<=P; i++){
+        resP=resP*i;
+     resM=resX/(resX-resN);
+     printf("%.1lf\n", resM);
+
+     }
+     return 0;
+
+}

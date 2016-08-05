@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    double m, phy, ch, bio, eng, z, y;
+    printf("Enter the student subjects number: ");
+    scanf("%lf%lf%lf%lf%lf", &m, &phy, &ch, &bio, &eng);
+    z = m+phy+ch+bio+eng;
+    printf("aggregate marks is: %lf\n", z);
+    y = z*100/500;
+    printf("parcentige marks: %lf\n", y);
+    return 0;
+
+}

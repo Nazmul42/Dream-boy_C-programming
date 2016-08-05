@@ -1,0 +1,23 @@
+#include<stdio.h>
+void main()
+{
+
+    int n,sum,i,f=0,s=1,l;
+
+
+   printf("Enter the value of: ");
+   scanf("%d",&n);
+   printf("The fibonacci numbers are:");
+   for(i=0;i<n;i++)
+   {
+        if(i<=1){
+            l=i;
+        }
+        else{
+            l=f+s;
+            f=s;
+            s=l;
+        }
+   printf("%d\n",l);
+}
+}

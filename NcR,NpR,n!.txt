@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main()
+{
+    int x,n,i,resX=1,resN=1,C,resC=1,P,resP=1,res,result;
+    printf("n\Enter the x: ");
+    scanf("%d", &x);
+    printf("n\Enter the n: ");
+    scanf("%d", &n);
+    for(i=1; i<=n; i++){
+        resX=resX*x;
+
+    }
+     printf("answer:%d", resX);
+
+    for(i=1; i<=n; i++){
+        resN=resN*i;
+            }
+            printf("answer:%d", resN);
+
+     C=x-n;
+     for(i=1; i<=C; i++){
+        resC=resC*i;
+
+     }
+      res=resX/(resX-resN);
+     printf("answer:%d", res);
+
+     P=x-n;
+     for(i=1; i<=P; i++){
+        resP=resP*i;
+     }
+     result=resX/(resX-resN);
+     printf("answer:%d", result);
+
+}
