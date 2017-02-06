@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="233.0" prefWidth="300.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="celciastofarenhite.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Label layoutX="14.0" layoutY="21.0" maxHeight="20.0" maxWidth="80.0" minHeight="20.0" minWidth="30.0" prefHeight="20.0" prefWidth="80.0" text="Celcius ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="67.0" maxHeight="20.0" maxWidth="80.0" minHeight="20.0" minWidth="30.0" prefHeight="20.0" prefWidth="80.0" text="Fahrenheit">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="celciusDisplayField" layoutX="133.0" layoutY="19.0" onAction="#handleConvertButtonAction" />
+      <TextField fx:id="fahrenheitDisplayField" layoutX="133.0" layoutY="65.0" />
+      <Label layoutX="98.0" layoutY="23.0" text=":" />
+      <Label layoutX="95.0" layoutY="69.0" text=" :" />
+      <Button layoutX="185.0" layoutY="113.0" mnemonicParsing="false" onAction="#handleConvertButtonAction" prefHeight="31.0" prefWidth="97.0" text="Convert">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
